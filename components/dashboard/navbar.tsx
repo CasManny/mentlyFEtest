@@ -4,7 +4,7 @@ import { ProfileSwitcher } from "./profile-switcher";
 
 export const Navbar = () => {
   return (
-    <div className="bg-brand-white-100 flex justify-between items-center py-2 shadow-sm">
+    <div className="bg-brand-white-100 flex justify-between items-center py-2 shadow-sm sticky top-0 z-50 backdrop-blur-2xl">
       <SidebarTrigger className="size-10" />
       <div className="flex items-center gap-5 sm:pr-5">
         <Notification hasNotification />
